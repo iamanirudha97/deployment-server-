@@ -1,14 +1,14 @@
 # Learning Docker
 
-## Docker -v -> shows the current docker version
-## docker ps -> shows list of running containers
-## Docker run -it ubuntu -> pulls a ubuntu image from docker hub in intereactive mode
-## Docker container ls -> shows the list of all the active container with their IDs and Names
-## Docker container ls -a -> shows the list of all active and inactive containers
-## docker start CONTAINER_NAME -> starts the container 
-## docker exec CONTAINER_NAME COMMAND -> returns the result of command run on docker container shell to your local machine shell NOTE: use -it flag to attach the console
-## Docker images OR docker image ls -> shows list of all available images with their id
-## NOTE : always use verified offical images from dockerhub 
+### Docker -v -> shows the current docker version
+### docker ps -> shows list of running containers
+### Docker run -it ubuntu -> pulls a ubuntu image from docker hub in intereactive mode
+### Docker container ls -> shows the list of all the active container with their IDs and Names
+### Docker container ls -a -> shows the list of all active and inactive containers
+### docker start CONTAINER_NAME -> starts the container 
+### docker exec CONTAINER_NAME COMMAND -> returns the result of command run on docker container shell to your local machine shell NOTE: use -it flag to attach the console
+### Docker images OR docker image ls -> shows list of all available images with their id
+### NOTE : always use verified offical images from dockerhub 
 
 # Containizing/Dockerizing a Node Application
 ## Make a new file named "Dockerfile" (case-sensitive), this is your docker configuration file
