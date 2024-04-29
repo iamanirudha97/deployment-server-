@@ -1,5 +1,0 @@
-Learn Docker
-Create deployment server
-Dockerize the app
-Create Resume
-Plan for tomorrow
